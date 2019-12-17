@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.householdledgerex.home.HomeLayout"
+        android:label="홈"
+        tools:layout="@layout/home_layout" />
+
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="com.example.householdledgerex.calculator.CalculatorLayout"
+        android:label="계산기"
+        tools:layout="@layout/calculator_layout" />
+
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="com.example.householdledgerex.stats.StatsLayout"
+        android:label="통계"
+        tools:layout="@layout/share_layout" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.householdledgerex.share.ShareLayout"
+        android:label="공유"
+        tools:layout="@layout/setting_layout" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.householdledgerex.setting.SettingLayout"
+        android:label="설정"
+        tools:layout="@layout/setting_layout" />
+
+</navigation>

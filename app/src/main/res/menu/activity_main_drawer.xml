@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="관리">
+            <menu>
+                <!--        <item-->
+                <!--            android:id="@+id/nav_home"-->
+                <!--            android:icon="@drawable/ic_menu_camera"-->
+                <!--            android:title="@string/menu_home" />-->
+                <item
+                    android:id="@+id/nav_calculator_layout"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="계산기" />
+                <item
+                    android:id="@+id/nav_stats_layout"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="통계" />
+            </menu>
+        </item>
+    </group>
+    <item android:title="기타">
+
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_share_layout"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="공유" />
+                <item
+                    android:id="@+id/nav_setting_layout"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="설정" />
+            </menu>
+        </item>
+    </item>
+
+</menu>
